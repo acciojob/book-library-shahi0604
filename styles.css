@@ -1,79 +1,24 @@
 body {
     background-color: #f8f8f8;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
 }
 
 .book-library {
     background-color: #ffffff;
-    width: 400px;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-.book-library h2 {
-    font-size: 16px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
+    padding: 20px;
 }
 
 .book {
-    margin-bottom: 30px;
-    position: relative;
-    border: 1px solid #eee;
+    margin-bottom: 20px;
 }
 
-.book img {
-    width: 150px; 
-    display: block;
-    margin: 0 auto 10px;
+.book p {
+    color: #777777; /* author */
 }
 
-.book-info {
-    background-color: #2ecc71; 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.book div {
+    background-color: #2ecc71; /* price block */
+    color: #ffffff;
+    border-radius: 5px;
     padding: 5px 10px;
-    color: white;
-}
-
-.text-meta {
-    text-align: left;
-}
-
-.book h3 {
-    margin: 0;
-    font-size: 10px;
-    text-transform: uppercase;
-}
-
-.author {
-    margin: 0;
-    font-size: 8px;
-}
-
-.price-block {
-    margin: 0;
-    font-weight: bold;
-    font-size: 12px;
-}
-.price-block {
-    background-color: #2ecc71; 
-    color: #ffffff;           
-    padding: 10px;             
-    border-radius: 20px;       
-    text-align: center;       
-    font-weight: bold;        
-    font-size: 16px;           
-    display: block;            
-    margin-top: 10px;          
-}
-
-.author {
-    color: #777777;            
+    width: fit-content;
 }
